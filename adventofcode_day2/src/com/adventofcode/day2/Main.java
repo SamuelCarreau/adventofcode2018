@@ -14,6 +14,7 @@ public class Main {
 
         int doubleCounter = 0;
         int tripleCounter = 0;
+        BoxScanner boxScanner = null;
 
         try {
             List<String> boxIds = FileHelper.readTextFile(filename);
@@ -24,11 +25,16 @@ public class Main {
                 doubleCounter += boxScore.haveDoublet();
                 tripleCounter += boxScore.haveTriplet();
             }
+
+            boxScanner = new BoxScanner(boxIds);
+
+
         }catch (Exception exc){
             System.out.println(exc.getMessage());
         }
 
         System.out.println("The value of "+doubleCounter+ " * "+tripleCounter+ " = "+doubleCounter*tripleCounter);
+        System.out.println("The value of the best matching string :  " + boxScanner.getCommonLetterFromMatchingPair());
 
 
 

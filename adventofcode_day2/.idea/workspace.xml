@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd22907f-4728-44e8-a264-817ed3d18019" name="Default Changelist" comment="" />
+    <list default="true" id="bd22907f-4728-44e8-a264-817ed3d18019" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/adventofcode/day2/BoxScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/adventofcode/day2/BoxScannerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/adventofcode/day2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/adventofcode/day2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2/src/boxIdInput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2/src/com/adventofcode/day2/BoxScore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2/src/com/adventofcode/day2/BoxScoreTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2/src/com/adventofcode/day2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2/src/com/adventofcode/day2/utilities/FileHelper.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,14 +40,53 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="483314538">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1736" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1736" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/adventofcode/day2/BoxScoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="68">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/adventofcode/day2/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="36" column="119" lean-forward="true" selection-start-line="36" selection-start-column="119" selection-end-line="36" selection-end-column="119" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,10 +95,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/adventofcode/day2/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/adventofcode/day2/BoxScanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="258">
+              <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/adventofcode/day2/BoxScannerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,10 +140,25 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/adventofcode/day2/BoxScore.java" />
+        <option value="$PROJECT_DIR$/src/com/adventofcode/day2/util/BoxScanner.java" />
+        <option value="$PROJECT_DIR$/src/com/adventofcode/day2/util/BoxScannerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/adventofcode/day2/BoxScannerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/adventofcode/day2/BoxScanner.java" />
         <option value="$PROJECT_DIR$/src/com/adventofcode/day2/Main.java" />
       </list>
     </option>
@@ -87,6 +175,7 @@
     <option name="width" value="1435" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -112,6 +201,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="day2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="adventofcode_day2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adventofcode_day2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day2" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -124,10 +220,19 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543808607975" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543814297487" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.adventofcode.day2.util" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\GitRepo\adventofcode_day2\src\com\adventofcode\day2\util" />
       <recent name="G:\GitRepo\adventofcode_day2\src\com\adventofcode\day2" />
@@ -146,13 +251,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BoxScoreTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.adventofcode.day2.Main" />
       <module name="adventofcode_day2" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoxScannerTest.sameTestHasTheWebSite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode_day2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adventofcode.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.adventofcode.day2" />
+      <option name="MAIN_CLASS_NAME" value="com.adventofcode.day2.BoxScannerTest" />
+      <option name="METHOD_NAME" value="sameTestHasTheWebSite" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,9 +295,12 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.BoxScoreTest" />
+      <item itemvalue="JUnit.BoxScannerTest.sameTestHasTheWebSite" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BoxScannerTest.sameTestHasTheWebSite" />
         <item itemvalue="JUnit.BoxScoreTest" />
       </list>
     </recent_temporary>
@@ -192,49 +316,108 @@
       <option name="presentableId" value="Default" />
       <updated>1543808457014</updated>
       <workItem from="1543808462284" duration="167000" />
+      <workItem from="1543808717557" duration="5561000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BoxScoreTest - 2018.12.02 at 22h 43m 30s.xml">
-      <configuration name="BoxScoreTest" configurationId="JUnit" />
+    <history-entry file="BoxScannerTest_sameTestHasTheWebSite - 2018.12.03 at 00h 08m 22s.xml">
+      <configuration name="BoxScannerTest.sameTestHasTheWebSite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoxScannerTest_sameTestHasTheWebSite - 2018.12.03 at 00h 08m 25s.xml">
+      <configuration name="BoxScannerTest.sameTestHasTheWebSite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoxScannerTest_sameTestHasTheWebSite - 2018.12.03 at 00h 10m 31s.xml">
+      <configuration name="BoxScannerTest.sameTestHasTheWebSite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoxScannerTest_sameTestHasTheWebSite - 2018.12.03 at 00h 11m 01s.xml">
+      <configuration name="BoxScannerTest.sameTestHasTheWebSite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoxScannerTest_sameTestHasTheWebSite - 2018.12.03 at 00h 12m 53s.xml">
+      <configuration name="BoxScannerTest.sameTestHasTheWebSite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoxScannerTest_sameTestHasTheWebSite - 2018.12.03 at 00h 13m 24s.xml">
+      <configuration name="BoxScannerTest.sameTestHasTheWebSite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoxScannerTest_sameTestHasTheWebSite - 2018.12.03 at 00h 14m 03s.xml">
+      <configuration name="BoxScannerTest.sameTestHasTheWebSite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoxScannerTest_sameTestHasTheWebSite - 2018.12.03 at 00h 14m 29s.xml">
+      <configuration name="BoxScannerTest.sameTestHasTheWebSite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoxScannerTest_sameTestHasTheWebSite - 2018.12.03 at 00h 15m 14s.xml">
+      <configuration name="BoxScannerTest.sameTestHasTheWebSite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoxScannerTest_sameTestHasTheWebSite - 2018.12.03 at 00h 15m 20s.xml">
+      <configuration name="BoxScannerTest.sameTestHasTheWebSite" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167000" />
+    <option name="totallyTimeSpent" value="5728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="572" y="8" width="1435" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945454" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25309092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32968238" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32968238" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32968238" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978093" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32968238" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25309092" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32968238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32968238" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -242,7 +425,21 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="i" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/util/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/adventofcode/day2/BoxScore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -250,20 +447,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adventofcode/day2/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/adventofcode/day2/BoxScoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adventofcode/day2/BoxScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adventofcode/day2/BoxScannerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adventofcode/day2/BoxScoreTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/adventofcode/day2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="462">
+          <caret line="36" column="119" lean-forward="true" selection-start-line="36" selection-start-column="119" selection-end-line="36" selection-end-column="119" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
