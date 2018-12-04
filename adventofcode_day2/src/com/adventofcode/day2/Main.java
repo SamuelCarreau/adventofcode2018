@@ -34,7 +34,7 @@ public class Main {
         }
 
         System.out.println("The value of "+doubleCounter+ " * "+tripleCounter+ " = "+doubleCounter*tripleCounter);
-        System.out.println("The value of the best matching string :  " + boxScanner.getCommonLetterFromMatchingPair());
+        System.out.println("The value of the best matching string is " + boxScanner.getCommonLetterFromMatchingPair());
 
 
 
