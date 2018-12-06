@@ -12,20 +12,27 @@ public class Main {
 
     public static void main(String[] args) {
 
+        final String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
         String input;
         try{
-            input = loadFile("src\\\\input.txt");
+            System.out.println();
+            if(System.getProperty("os.name").equals("Linux")){
+                input = loadFile("src/input.txt");
+            }
+            else {
+                //Windows
+                input = loadFile("src\\\\input.txt");
+            }
 
             Polymer polymer = new Polymer(input);
             polymer.doChainReaction();
+
             System.out.println("Part 1 = "+polymer.getSize());
 
-            String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             int min = polymer.getSize();
             for (Character character : alphabet.toCharArray()){
-                polymer = new Polymer(input);
-                polymer.removeAll(character);
-                polymer.removeAll((char)(character.charValue()+32));
+                polymer = new Polymer(input,character);
                 polymer.doChainReaction();
                 int newSize = polymer.getSize();
                 if(min > newSize)

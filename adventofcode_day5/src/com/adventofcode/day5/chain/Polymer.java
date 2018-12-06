@@ -13,6 +13,16 @@ public class Polymer {
         }
     }
 
+    public Polymer(String input,Character withOut){
+        size = 0;
+
+        for(Character character : input.toCharArray()){
+            if (character != withOut && character != (char)(withOut+32)) {
+                this.addCell(character);
+            }
+        }
+    }
+
     public void addCell(char character){
         Cell newCell = new Cell(character);
 
