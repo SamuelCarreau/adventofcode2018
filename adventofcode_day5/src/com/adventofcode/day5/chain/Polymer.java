@@ -3,6 +3,7 @@ package com.adventofcode.day5.chain;
 public class Polymer {
 
     private Cell firstCell;
+    private Cell lastCell;
     private int size;
 
     public Polymer(String input){
@@ -14,18 +15,17 @@ public class Polymer {
 
     public void addCell(char character){
         Cell newCell = new Cell(character);
-        Cell currentCell = firstCell;
 
         if(firstCell == null){
             firstCell = newCell;
+            lastCell = newCell;
         }
-        else {
-            while (currentCell.nextCell != null){
-                currentCell = currentCell.nextCell;
-            }
+        else{
+            Cell left = lastCell;
+            lastCell = newCell;
 
-            currentCell.nextCell = newCell;
-            newCell.previousCell = currentCell;
+            left.nextCell = newCell;
+            newCell.previousCell = left;
 
         }
         size++;
@@ -51,6 +51,7 @@ public class Polymer {
             }
             currentCell = currentCell.nextCell;
         }
+        //if last
         if( currentCell.unit == unit){
             currentCell.previousCell.nextCell = null;
             size--;

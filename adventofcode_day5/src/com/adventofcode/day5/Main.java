@@ -14,7 +14,6 @@ public class Main {
 
 
         String input = loadFile("src\\\\input.txt");
-
         Polymer polymer = new Polymer(input);
         polymer.doChainReaction();
         System.out.println("Part 1 = "+polymer.getSize());
@@ -29,7 +28,6 @@ public class Main {
             int newSize = polymer.getSize();
             if(min > newSize)
                 min = newSize;
-            System.out.println(character+" min "+min);
         }
 
         System.out.println("Part 2 = "+min);
