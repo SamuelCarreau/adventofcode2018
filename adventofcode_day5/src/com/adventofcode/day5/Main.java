@@ -10,27 +10,33 @@ import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
+        String input;
+        try{
+            input = loadFile("src\\\\input.txt");
 
-        String input = loadFile("src\\\\input.txt");
-        Polymer polymer = new Polymer(input);
-        polymer.doChainReaction();
-        System.out.println("Part 1 = "+polymer.getSize());
-
-        String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        int min = polymer.getSize();
-        for (Character character : alphabet.toCharArray()){
-            polymer = new Polymer(input);
-            polymer.removeAll(character);
-            polymer.removeAll((char)(character.charValue()+32));
+            Polymer polymer = new Polymer(input);
             polymer.doChainReaction();
-            int newSize = polymer.getSize();
-            if(min > newSize)
-                min = newSize;
-        }
+            System.out.println("Part 1 = "+polymer.getSize());
 
-        System.out.println("Part 2 = "+min);
+            String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            int min = polymer.getSize();
+            for (Character character : alphabet.toCharArray()){
+                polymer = new Polymer(input);
+                polymer.removeAll(character);
+                polymer.removeAll((char)(character.charValue()+32));
+                polymer.doChainReaction();
+                int newSize = polymer.getSize();
+                if(min > newSize)
+                    min = newSize;
+            }
+
+            System.out.println("Part 2 = "+min);
+
+        }catch (IOException exc){
+            System.out.println("Error: "+exc.getMessage());
+        }
 
     }
 
