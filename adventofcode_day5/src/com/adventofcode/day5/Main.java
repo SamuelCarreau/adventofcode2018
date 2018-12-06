@@ -14,16 +14,10 @@ public class Main {
 
         final String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-        String input;
         try{
-            System.out.println();
-            if(System.getProperty("os.name").equals("Linux")){
-                input = loadFile("src/input.txt");
-            }
-            else {
-                //Windows
-                input = loadFile("src\\\\input.txt");
-            }
+            String input = System.getProperty("os.name").equals("Linux")
+                    ? loadFile("src/input.txt")
+                    : loadFile("src\\\\input.txt");
 
             Polymer polymer = new Polymer(input);
             polymer.doChainReaction();
@@ -35,8 +29,7 @@ public class Main {
                 polymer = new Polymer(input,character);
                 polymer.doChainReaction();
                 int newSize = polymer.getSize();
-                if(min > newSize)
-                    min = newSize;
+                min = (min > newSize)? newSize: min;
             }
 
             System.out.println("Part 2 = "+min);
