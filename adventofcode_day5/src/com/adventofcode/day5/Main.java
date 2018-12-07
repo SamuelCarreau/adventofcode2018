@@ -19,11 +19,14 @@ public class Main {
                     ? loadFile("src/input.txt")
                     : loadFile("src\\\\input.txt");
 
+            long time = System.nanoTime();
             Polymer polymer = new Polymer(input);
             polymer.doChainReaction();
 
-            System.out.println("Part 1 = "+polymer.getSize());
 
+            System.out.println("Part 1: " + polymer.getSize() + " done in " + ((System.nanoTime()-time)/1000000) + " millisecond");
+
+            time = System.nanoTime();
             int min = polymer.getSize();
             for (Character character : alphabet.toCharArray()){
                 polymer = new Polymer(input,character);
@@ -32,10 +35,10 @@ public class Main {
                 min = (min > newSize)? newSize: min;
             }
 
-            System.out.println("Part 2 = "+min);
+            System.out.println("Part 2: " + min + " done in " + ((System.nanoTime()-time)/1000000) + " millisecond");
 
         }catch (IOException exc){
-            System.out.println("Error: "+exc.getMessage());
+            System.out.println("Error: " + exc.getMessage());
         }
 
     }
