@@ -5,8 +5,6 @@ import com.adventofcode.day5.chain.Polymer;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
 
@@ -22,7 +20,6 @@ public class Main {
             long time = System.nanoTime();
             Polymer polymer = new Polymer(input);
             polymer.doChainReaction();
-
 
             System.out.println("Part 1: " + polymer.getSize() + " done in " + ((System.nanoTime()-time)/1000000) + " millisecond");
 
